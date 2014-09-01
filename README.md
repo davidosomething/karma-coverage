@@ -1,3 +1,12 @@
+# FORK
+
+Ibrik is a peer dependency now, with no version requirement.
+Recommend using:
+```
+npm install git+https://github.com/davidosomething/ibrik.git#updatepkg
+```
+Which is HBOlabs' coffeescript fork of ibrik, but with updated packages.
+
 # karma-coverage [![Build Status](https://travis-ci.org/karma-runner/karma-coverage.svg?branch=master)](https://travis-ci.org/karma-runner/karma-coverage)
 
 > Generate code coverage using [Istanbul].

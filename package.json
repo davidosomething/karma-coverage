@@ -19,28 +19,28 @@
   ],
   "author": "SATO taichi <ryushi@gmail.com>",
   "dependencies": {
-    "istanbul": "~0.3.0",
-    "ibrik": "git+https://github.com/HBOCodeLabs/ibrik.git",
     "dateformat": "~1.0.6",
-    "minimatch": "~0.3.0"
+    "istanbul": "~0.3.0",
+    "minimatch": "^0.3.0"
   },
   "peerDependencies": {
-    "karma": ">=0.9"
+    "karma": ">=0.9",
+    "ibrik": "*"
   },
   "license": "MIT",
   "devDependencies": {
-    "chai": "~1.7.2",
-    "grunt": "~0.4.1",
+    "chai": "^1.9.1",
+    "grunt": "^0.4.5",
     "grunt-auto-release": "~0.0.1",
     "grunt-bump": "~0.0.7",
-    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
     "grunt-npm": "~0.0.2",
     "grunt-simple-mocha": "~0.4.0",
     "karma": "~0.12.0",
     "lodash": "^2.4.1",
-    "mocks": "0.0.11",
-    "sinon": "~1.7.3",
-    "sinon-chai": "~2.4.0"
+    "mocks": "0.0.15",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
   },
   "contributors": [
     "Friedel Ziegelmayer <friedel.ziegelmayer@gmail.com>",
